@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+  margin: 0 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+    color: f3f3f3;
+}
+.section{
+    border: 0.3px solid rgb(228, 228, 228);
+    padding: 40px;
+    height: auto;
+    max-width: 1440;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    font-family: 'Manrope', sans-serif;
+    column-gap: 40px;
+}
+
+.left-con{
+    width: 50%;
+    height: auto;
+}
+.right-con{
+    width: 50%;
+    height: auto;
+}
+.bag{
+    display: flex;
+    justify-content: end;
+}
+
+.tabag{
+    width: fit-content;
+    height: auto;
+}
+
+.tabag-text{
+    font-size: 0.75rem;
+    line-height: 150%;
+    font-weight: 500;
+    color: gray;
+}
+.Ers{
+    width: fit-content;
+    height: auto;
+}
+
+.Ers-text{
+    font-size: 2rem;
+    line-height: 150%;
+    font-weight:bolder;
+    color: #474747;
+}
+
+.dollareview-con{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    justify-content: start;
+    align-items: center;
+}
+
+.dollar-con{
+    width: fit-content;
+    height: auto;
+}
+
+.dollar-text{
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: #474747;
+}
+.review-textimg{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    justify-content: start;
+    align-items: center;
+}
+
+.reviewimg-con{
+    width: fit-content;
+    height: auto;
+}
+
+.review-con{
+    width:5rem;
+    height: auto;
+}
+
+.review-text{
+    font-size: 0.7rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: #a8a8a8; 
+}
+
+.long-textcon{
+    width: fit-content;
+    height: auto;
+}
